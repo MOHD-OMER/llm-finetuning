@@ -1,0 +1,59 @@
+{
+  "num_samples": 50,
+  "max_new_tokens": 256,
+  "temperature": 0.3,
+  "base_model_metrics": {
+    "rouge1": 27.00,
+    "rouge2": 3.40,
+    "rougeL": 13.16,
+    "bleu": 1.28
+  },
+  "finetuned_model_metrics": {
+    "rouge1": 29.45,
+    "rouge2": 5.29,
+    "rougeL": 16.37,
+    "bleu": 2.81
+  },
+  "qualitative_examples": [
+    {
+      "rank": 1,
+      "question": "Hi, Im 18 now and my wisdom tooth has only just started to grow and show a little bit but just recently from the pain of the wisdom tooth growing I sta...",
+      "base_response": "Based on the information provided, it appears that you are experiencing some discomfort and pain related to the eruption of your wisdom tooth. The stretching of the inner cheek skin due to chewing or...",
+      "finetuned_response": "Hello, Welcome to Chat Doctor, I have gone through your query and can understand your concern. The symptoms that you have described are due to the eruption of wisdom tooth. It is a normal process and the pain will subside once the tooth erupts completely.",
+      "ground_truth": "Hello, Thanks for consulting ChatDoctor. Read your query as you have sore gum around wisdom tooth don't be worried so many sore gums is due to erupting wisdom tooth this is due to Pericoronotis.",
+      "rougeL_improvement": 11.8
+    },
+    {
+      "rank": 2,
+      "question": "Me and my girlfriend had unprotected sex for the first time for both of us on May 19th, it was during her fertile days...",
+      "base_response": "Based on the information provided, there are several factors to consider when assessing the risk of pregnancy: 1. The last day of your girlfriend's menstrual cycle was May 10th...",
+      "finetuned_response": "Hello! Welcome on Chat Doctor! I understand your concern and would explain that the Plan B is an emergency contraceptive pill which can be taken up to 72 hours after unprotected intercourse. It works by preventing ovulation or fertilization.",
+      "ground_truth": "Hi, Welcome to Chat Doctor, After going through your history, you had unprotected sex near about ovulation time which is approximately 14 days prior to expected period.",
+      "rougeL_improvement": 10.3
+    },
+    {
+      "rank": 3,
+      "question": "I believe that my daughter is suffering from anorexia. She has developed this condition where she constantly swallows and expels tiny burps. Is this related?",
+      "base_response": "I'm here to help answer your question to the best of my ability. However, please keep in mind that while I can provide information based on available data, I cannot diagnose or treat medical conditions...",
+      "finetuned_response": "Hi, I have gone through your question. Anorexia nervosa is a psychological disorder characterized by self-starvation and excessive weight loss. It is not related to any physical illness. In anorexia patients the psychological aspect is the main concern.",
+      "ground_truth": "Hi...it would have been better if you had mentioned the age of your kid. By what you quote I do not feel that it is anorexia. I feel that she is doing it by habit, and it is habit disorder.",
+      "rougeL_improvement": 9.6
+    },
+    {
+      "rank": 4,
+      "question": "Hello, A couple of weeks ago I ate some nachos and cut a bump on the lower part of my gum in the center of my bottom teeth. It has healed since then. However...",
+      "base_response": "Based on the information you have provided, it is possible that you may have developed gingivitis or an early stage of periodontal disease in the affected area...",
+      "finetuned_response": "Hi, Thanks for writing in. The swelling and inflammation could be due to a bacterial infection. The white bumps could be due to the accumulation of bacteria and food debris. I would advise you to maintain good oral hygiene.",
+      "ground_truth": "Hi Annette, The whitish bumps are arose from the abscess developed due to traumatic injury. I would suggest you to visit a dentist for clinical evaluation.",
+      "rougeL_improvement": 9.6
+    },
+    {
+      "rank": 5,
+      "question": "I am a 52 year old woman who smokes 10 cigarettes a day and drinks only occasionally. I am overweight by about 4/5 stone. Recently having breathlessness...",
+      "base_response": "Based on the information provided, it's important to note that I am an AI language model and not a doctor, and cannot provide definitive diagnoses...",
+      "finetuned_response": "Hi, Thanks for your query. I have gone through your query. Your symptoms suggest that you may be suffering from asthma. The symptoms like breathlessness, wheezing, cough, chest tightness, palpitations are characteristic features of asthma.",
+      "ground_truth": "Hi and welcome in ChatDoctor. I can understand your concern. As you explain the history you do not have done any test. First I will recommend some tests.",
+      "rougeL_improvement": 8.0
+    }
+  ]
+}

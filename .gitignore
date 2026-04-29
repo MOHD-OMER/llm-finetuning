@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & model files (too large for GitHub)
+data/
+checkpoints/
+merged_model/
+wandb/
+
+# Kaggle
+*.kaggle
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.env
+.env*
