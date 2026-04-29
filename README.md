@@ -283,4 +283,4 @@ print(ask("What causes rheumatoid arthritis?"))
 
 ---
 
-> ⚠️ **Disclaimer**: This project is for educational and portfolio purposes only. The fine-tuned model should not be used for actual medical diagnosis or treatment decisions. Always consult a qualified healthcare professional.
+> ⚠️ **Disclaimer**: This project is for educational purposes only. The fine-tuned model should not be used for actual medical diagnosis or treatment decisions. Always consult a qualified healthcare professional.
