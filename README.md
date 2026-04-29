@@ -127,7 +127,14 @@ Training loss dropped consistently from ~3.0 → ~2.06 across 616 steps:
 | 400 | 2.064 | 2.069 |
 | 600 | 2.063 | 2.060 |
 
-*Add screenshot of W&B dashboard here*
+### Training Loss
+![Training Loss](assets/wandb_train_loss.png)
+
+### Validation Loss  
+![Validation Loss](assets/wandb_eval_loss.png)
+
+### GPU Utilization
+![GPU Usage](assets/wandb_system_gpu.png)
 
 ---
 
